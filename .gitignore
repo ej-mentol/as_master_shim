@@ -1,0 +1,43 @@
+# Build output
+build/
+bin/
+
+# Local machine config (created by compile_win.bat)
+deploy_path.local.txt
+
+# Draft notes and reports
+BUG_REPORT.md
+REPORT_*.md
+NOTES.md
+
+# Build artifacts
+*.dll
+*.so
+*.exp
+*.lib
+*.pdb
+*.obj
+*.ilk
+*.map
+
+# CMake in-source files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDE
+.vs/
+.vscode/
+*.suo
+*.user
+*.VC.db
+
+# OS junk
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.log
+*.bak
+*.tmp
